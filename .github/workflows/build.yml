@@ -20,7 +20,7 @@ jobs:
 
       - name: Accept Android licenses
         run: |
-          yes | sdkmanager --licenses || true
+          yes | buildozer android accept_sdk_license
 
       - name: Build APK
         run: |
