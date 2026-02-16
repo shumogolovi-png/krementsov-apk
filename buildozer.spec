@@ -16,3 +16,5 @@ warn_on_root = 1
 
 [app:android]
 android.permissions = INTERNET
+android.arch = arm64-v8a
+android.ndk = 21b
